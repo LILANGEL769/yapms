@@ -1,0 +1,73 @@
+{
+	"name": "Example Election",
+	"parties": [
+		{
+			"name": "republican",
+			"color": "#FF0000"
+		},
+		{
+			"name": "democrat",
+			"color": "#0000FF"
+		}
+	],
+	"candidates": [
+		{
+			"firstName": "john",
+			"lastName": "doe",
+			"party": "republican",
+			"homeState": "iowa",
+			"runningMates": [
+				{
+					"firstName": "jacob",
+					"lastName": "smith",
+					"party": "republican",
+					"homeState": "california"
+				}
+			]
+		},
+		{
+			"firstName": "jane",
+			"lastName": "doe",
+			"party": "democrat",
+			"homeState": "new york",
+			"runningMates": [
+				{
+					"firstName": "jill",
+					"lastName": "smith",
+					"party": "democrat",
+					"homeState": "florida"
+				},
+				{
+					"firstName": "jim",
+					"lastName": "smith",
+					"party": "democrat",
+					"homeState": "texas"
+				}
+			]
+		}
+	],
+	"questions": [
+		{
+			"text": "Should we build a wall?",
+			"answers": [
+				{
+					"text": "Yes"
+				},
+				{
+					"text": "No"
+				}
+			]
+		},
+		{
+			"text": "Should we ban Muslims?",
+			"answers": [
+				{
+					"text": "Yes"
+				},
+				{
+					"text": "No"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "New York",
+	"candidates": [
+		{
+			"name": "John Doe",
+			"party": "Republican",
+			"votes": 0,
+			"delegates": 0
+		},
+		{
+			"name": "Jane Doe",
+			"party": "Democrat",
+			"votes": 0,
+			"delegates": 0
+		}
+	]
+}
